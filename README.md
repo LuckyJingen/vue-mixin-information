@@ -8,7 +8,8 @@
 - [Vue Router](https://github.com/vuejs/vue-router)
 - [Element UI](https://github.com/ElemeFE/element)
 - [NProgress](https://github.com/rstacruz/nprogress)
-- [Vue-resource](https://github.com/pagekit/vue-resource)
+- ~~[Vue-resource](https://github.com/pagekit/vue-resource)~~
+- [Axios](https://github.com/mzabriskie/axios)
 - [Webpack](https://webpack.js.org/)
 - [Vue Loader](http://vuejs.github.io/vue-loader)
 - [Babel](https://babeljs.io/)
@@ -23,7 +24,6 @@
 - [ ] 主页面结构搭建
 - [ ] 全局状态
 - [ ] 路由管理
-- [ ] vue-resource
 - [ ] movie module
 - [ ] music module
 - [ ] books module
