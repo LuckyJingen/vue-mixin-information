@@ -29,6 +29,6 @@
 - [ ] books module
 - [ ] news module
 - [ ] sports module
-- [ ] gossip module
+- [ ] entertainment gossip module
 - [ ] gym module
 - [ ] Photography module
