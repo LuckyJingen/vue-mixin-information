@@ -19,7 +19,7 @@
 ## TODOs
 
 
-- [ ] 从头搭建脚手架
+- [ ] 从头搭建
 - [ ] 重组配置文件
 - [ ] 主页面结构搭建
 - [ ] 全局状态
@@ -29,6 +29,6 @@
 - [ ] books module
 - [ ] news module
 - [ ] sports module
-- [ ] gossip module
+- [ ] entertainment gossip module
 - [ ] gym module
 - [ ] Photography module
