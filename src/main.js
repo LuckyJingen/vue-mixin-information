@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import nprogress from 'nprogress'
 
 import 'normalize.css/normalize.css'
 import 'nprogress/nprogress.css'
@@ -13,6 +14,18 @@ import '../node_modules/medium-editor/dist/css/medium-editor.css'
 import '../node_modules/medium-editor/dist/css/themes/default.css'
 
 Vue.config.productionTip = false
+
+// add nprogress to Route
+router.beforeEach((to, from, next) => {
+    nprogress.start()
+    next()
+})
+router.afterEach(() => {
+    nprogress.inc()
+    setTimeout(() => {
+        nprogress.done()
+    }, 600)
+})
 
 /* eslint-disable no-new */
 new Vue({
