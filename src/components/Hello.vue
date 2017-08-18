@@ -5,7 +5,6 @@
 </template>
 
 <script>
-import RichEditor from 'medium-editor'
 
 export default {
   name: 'hello',
@@ -15,7 +14,6 @@ export default {
     }
   },
   mounted () {
-    // const editor = new RichEditor('.hello');
   }
 }
 </script>
